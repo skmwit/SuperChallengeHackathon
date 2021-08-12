@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/sidesv">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageButton
+        android:layout_gravity="center"
+        android:id="@+id/frfry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frfry"
+        android:background="@drawable/btndefalt"/>
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/cheesestick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cheesestick"
+            android:background="@drawable/btndefalt"/>
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/chocoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/chocoice"
+            android:background="@drawable/btndefalt"/>
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/strawice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/strawice"
+            android:background="@drawable/btndefalt"/>
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/chickchest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/chickchest"
+            android:background="@drawable/btndefalt"/>
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/soup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/soup"
+            android:background="@drawable/btndefalt"/>
+        <ImageButton
+            android:layout_gravity="center"
+            android:id="@+id/icecream"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icecream"
+            android:background="@drawable/btndefalt"/>
+
+    </LinearLayout>
+</ScrollView>

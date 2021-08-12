@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/upmenu_menubar"
+        android:adjustViewBounds="true"/>
+
+    <ImageButton
+        android:id="@+id/hamburgerimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/burger"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="104dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btndefalt"/>
+
+    <ImageButton
+        android:id="@+id/beverageimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/beverage"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="402dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btndefalt"/>
+
+
+    <ImageButton
+        android:id="@+id/sideimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fry"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="244dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btndefalt"/>
+
+
+    <ImageButton
+        android:id="@+id/setimg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/set"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="543dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btndefalt"/>
+
+</LinearLayout>
+</ScrollView>
